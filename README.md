@@ -1,4 +1,4 @@
-== Collectd unixsocket Ruby wrapper ==
+# Collectd unixsocket Ruby wrapper
 
 Ruby class to access collectd daemon through the UNIX socket plugin.
 
@@ -12,7 +12,7 @@ Requires collectd to be configured with the unixsock plugin, like so:
 
 See http://collectd.org/wiki/index.php/Plugin:UnixSock
 
-=== EXAMPLE ===
+## Example
 
 It's easy.
 
@@ -61,7 +61,7 @@ When you run it you get something like:
 
 No rocket science.
 
-=== COPYRIGHT ===
+## Copyright
 
 Copyright (C) 2015 Red Hat
 Author: Lukas Zapletal <lukas-x@zapletalovi.com>
@@ -72,7 +72,7 @@ Author: Duncan Mac-Vicar P. <dmacvicar@suse.de>
 Inspired in python version from collectd/contrib:
 Copyright (C) 2008 Clay Loveless <clay@killersoft.com>
 
-=== LICENSE ===
+## License
 
 Distributed under ZLib license.
 
